@@ -1,0 +1,6 @@
+# Always count Dart
+*.kt linguist-detectable=true
+
+# Force Kotlin detection in Android folder
+android/**/*.kt linguist-detectable=true
+android/**/src/** linguist-detectable=true
